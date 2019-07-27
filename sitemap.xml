@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/07/27/java-0/</loc>
+    
+    <lastmod>2019-07-27T08:40:13.519Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/07/27/hexo-next-1/</loc>
+    
+    <lastmod>2019-07-27T08:38:02.049Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/07/27/hexo-next-0/</loc>
+    
+    <lastmod>2019-07-27T08:35:43.879Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2019-07-27T07:03:16.543Z</lastmod>
@@ -16,14 +37,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://yoursite.com/about/index.html</loc>
     
     <lastmod>2019-07-27T07:03:16.542Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2019-07-27T07:03:16.542Z</lastmod>
     
