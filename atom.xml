@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-07T03:40:58.246Z</updated>
+  <updated>2019-08-07T06:58:16.228Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,25 +17,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo-next+github搭建个人博客</title>
-    <link href="http://yoursite.com/2019/07/27/hexo-next-0/"/>
-    <id>http://yoursite.com/2019/07/27/hexo-next-0/</id>
-    <published>2019-07-26T16:00:00.000Z</published>
-    <updated>2019-08-07T03:40:58.246Z</updated>
+    <title>windows,mac,linux用tree命令生成文件目录详解</title>
+    <link href="http://yoursite.com/2019/08/07/tree-01/"/>
+    <id>http://yoursite.com/2019/08/07/tree-01/</id>
+    <published>2019-08-06T16:00:00.000Z</published>
+    <updated>2019-08-07T06:58:16.228Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><hr><h4 id="1-windows下用tree命令生成文件目录"><a href="#1-windows下用tree命令生成文件目录" class="headerlink" title="1. windows下用tree命令生成文件目录"></a>1. windows下用tree命令生成文件目录</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree /F &gt; D:\tree.txt</span><br></pre></td></tr></table></figure><hr><h4 id="2-mac下用tree命令生成文件目录"><a href="#2-mac下用tree命令生成文件目录" class="headerlink" title="2. mac下用tree命令生成文件目录"></a>2. mac下用tree命令生成文件目录</h4><h5 id="2-1-mac下用执行下面命令查看是否已经安装了tree命令"><a href="#2-1-mac下用执行下面命令查看是否已经安装了tree命令" class="headerlink" title="2.1. mac下用执行下面命令查看是否已经安装了tree命令"></a>2.1. mac下用执行下面命令查看是否已经安装了tree命令</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree --version</span><br></pre></td></tr></table></figure><p><img src="evernotecid://ECD3192A-98F1-49C8-A7B1-95B1EF91F783/appyinxiangcom/22428507/ENResource/p126" alt="77b0b9b24c5a83f584dce7a8c258f746.png"><br>出现如图所示结果说明已经安装<br>如果没安装则执行下面命令安装</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install tree</span><br></pre></td></tr></table></figure><h5 id="2-2执行下面命令"><a href="#2-2执行下面命令" class="headerlink" title="2.2执行下面命令"></a>2.2执行下面命令</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree -L 2 &gt;README.md</span><br></pre></td></tr></table></figure><p>-L 参数指定遍历层级<br>README.md指定输入文件</p><hr><h4 id="3-linux下用tree命令生成文件目录"><a href="#3-linux下用tree命令生成文件目录" class="headerlink" title="3. linux下用tree命令生成文件目录"></a>3. linux下用tree命令生成文件目录</h4><p>同mac下操作</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
+        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;hr&gt;
+&lt;h4 id=&quot;1-windows下用tree命令生成文件目录&quot;&gt;&lt;a href=&quot;#1-windows下用tree命令生成文件目录&quot; class=&quot;headerlink
       
     
     </summary>
     
-      <category term="hexo-next" scheme="http://yoursite.com/categories/hexo-next/"/>
+      <category term="tree命令生成文件目录" scheme="http://yoursite.com/categories/tree%E5%91%BD%E4%BB%A4%E7%94%9F%E6%88%90%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95/"/>
     
+    
+      <category term="tree命令生成文件目录" scheme="http://yoursite.com/tags/tree%E5%91%BD%E4%BB%A4%E7%94%9F%E6%88%90%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95/"/>
     
   </entry>
   
@@ -63,28 +66,25 @@
   </entry>
   
   <entry>
-    <title>java环境介绍</title>
-    <link href="http://yoursite.com/2019/07/27/java-1/"/>
-    <id>http://yoursite.com/2019/07/27/java-1/</id>
+    <title>hexo-next+github搭建个人博客</title>
+    <link href="http://yoursite.com/2019/07/27/hexo-next-0/"/>
+    <id>http://yoursite.com/2019/07/27/hexo-next-0/</id>
     <published>2019-07-26T16:00:00.000Z</published>
-    <updated>2019-07-27T16:21:42.563Z</updated>
+    <updated>2019-08-07T03:40:58.246Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>pro环境：生产环境，面向外部用户的环境，连接上互联网即可访问的正式环境。</p><p>pre环境：灰度环境，外部用户可以访问，但是服务器配置相对低，其它和生产一样。</p><p>test环境：测试环境，外部用户无法访问，专门给测试人员使用的，版本相对稳定。</p><p>dev环境：开发环境，外部用户无法访问，开发人员使用，版本变动很大。</p>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;pro环境：生产环境，面向外部用户的环境，连接上互联网即可访问的正式环境。&lt;/p&gt;
-&lt;p&gt;pre环境：灰度环境，外部用户可以访问，但是服务器配置相对低，其它和生产一样。&lt;/p
+        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
       
     
     </summary>
     
-      <category term="java基础" scheme="http://yoursite.com/categories/java%E5%9F%BA%E7%A1%80/"/>
+      <category term="hexo-next" scheme="http://yoursite.com/categories/hexo-next/"/>
     
-    
-      <category term="java" scheme="http://yoursite.com/tags/java/"/>
     
   </entry>
   
@@ -102,6 +102,32 @@
       
       
         &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;WordZzzz
+      
+    
+    </summary>
+    
+      <category term="java基础" scheme="http://yoursite.com/categories/java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java环境介绍</title>
+    <link href="http://yoursite.com/2019/07/27/java-1/"/>
+    <id>http://yoursite.com/2019/07/27/java-1/</id>
+    <published>2019-07-26T16:00:00.000Z</published>
+    <updated>2019-07-27T16:21:42.563Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>pro环境：生产环境，面向外部用户的环境，连接上互联网即可访问的正式环境。</p><p>pre环境：灰度环境，外部用户可以访问，但是服务器配置相对低，其它和生产一样。</p><p>test环境：测试环境，外部用户无法访问，专门给测试人员使用的，版本相对稳定。</p><p>dev环境：开发环境，外部用户无法访问，开发人员使用，版本变动很大。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;pro环境：生产环境，面向外部用户的环境，连接上互联网即可访问的正式环境。&lt;/p&gt;
+&lt;p&gt;pre环境：灰度环境，外部用户可以访问，但是服务器配置相对低，其它和生产一样。&lt;/p
       
     
     </summary>
