@@ -145,7 +145,7 @@
 <meta property="og:description" content="1. windows下用tree命令生成文件目录1tree /F &amp;gt; D:\tree.txt  2. mac下用tree命令生成文件目录2.1. mac下用执行下面命令查看是否已经安装了tree命令1tree --version 出现如图所示结果说明已经安装如果没安装则执行下面命令安装 1brew install tree 2.2执行下面命令1tree -L 2 &amp;gt;README.m">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="evernotecid://ECD3192A-98F1-49C8-A7B1-95B1EF91F783/appyinxiangcom/22428507/ENResource/p126">
-<meta property="og:updated_time" content="2019-08-07T06:58:16.228Z">
+<meta property="og:updated_time" content="2019-08-07T09:10:24.517Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="windows,mac,linux用tree命令生成文件目录详解">
 <meta name="twitter:description" content="1. windows下用tree命令生成文件目录1tree /F &amp;gt; D:\tree.txt  2. mac下用tree命令生成文件目录2.1. mac下用执行下面命令查看是否已经安装了tree命令1tree --version 出现如图所示结果说明已经安装如果没安装则执行下面命令安装 1brew install tree 2.2执行下面命令1tree -L 2 &amp;gt;README.m">
@@ -308,6 +308,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-search">
+          <a href="/search" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-search"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
 
       
     </ul>
@@ -386,7 +396,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-08-07T14:58:16+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-08-07T17:10:24+08:00">
                 2019-08-07
               </time>
             
@@ -447,7 +457,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  135
+                  594
                 </span>
               
 
@@ -463,7 +473,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  2
                 </span>
               
             </div>
@@ -491,12 +501,25 @@
 <p><img src="evernotecid://ECD3192A-98F1-49C8-A7B1-95B1EF91F783/appyinxiangcom/22428507/ENResource/p126" alt="77b0b9b24c5a83f584dce7a8c258f746.png"><br>出现如图所示结果说明已经安装<br>如果没安装则执行下面命令安装</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install tree</span><br></pre></td></tr></table></figure>
 <h5 id="2-2执行下面命令"><a href="#2-2执行下面命令" class="headerlink" title="2.2执行下面命令"></a>2.2执行下面命令</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree -L 2 &gt;README.md</span><br></pre></td></tr></table></figure>
-<p>-L 参数指定遍历层级<br>README.md指定输入文件</p>
+<h5 id="2-3tree命令参数详解"><a href="#2-3tree命令参数详解" class="headerlink" title="2.3tree命令参数详解"></a>2.3tree命令参数详解</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">语法： tree [-aACdDfFgilnNpqstux][-I &lt;范本样式&gt;][-P &lt;范本样式&gt;][目录...]</span><br><span class="line"></span><br><span class="line">参数说明：</span><br><span class="line"></span><br><span class="line">-a 显示所有文件和目录。</span><br><span class="line">-A 使用ASNI绘图字符显示树状图而非以ASCII字符组合。</span><br><span class="line">-C 在文件和目录清单加上色彩，便于区分各种类型。</span><br><span class="line">-d 显示目录名称而非内容。</span><br><span class="line">-D 列出文件或目录的更改时间。</span><br><span class="line">-f 在每个文件或目录之前，显示完整的相对路径名称。</span><br><span class="line">-F 在执行文件，目录，Socket，符号连接，管道名称名称，各自加上&quot;*&quot;,&quot;/&quot;,&quot;=&quot;,&quot;@&quot;,&quot;|&quot;号。</span><br><span class="line">-g 列出文件或目录的所属群组名称，没有对应的名称时，则显示群组识别码。</span><br><span class="line">-i 不以阶梯状列出文件或目录名称。</span><br><span class="line">-I&lt;范本样式&gt; 不显示符合范本样式的文件或目录名称。</span><br><span class="line">-l 如遇到性质为符号连接的目录，直接列出该连接所指向的原始目录。</span><br><span class="line">-n 不在文件和目录清单加上色彩。</span><br><span class="line">-N 直接列出文件和目录名称，包括控制字符。</span><br><span class="line">-p 列出权限标示。</span><br><span class="line">-P&lt;范本样式&gt; 只显示符合范本样式的文件或目录名称。</span><br><span class="line">-q 用&quot;?&quot;号取代控制字符，列出文件和目录名称。</span><br><span class="line">-s 列出文件或目录大小。</span><br><span class="line">-t 用文件和目录的更改时间排序。</span><br><span class="line">-u 列出文件或目录的拥有者名称，没有对应的名称时，则显示用户识别码。</span><br><span class="line">-x 将范围局限在现行的文件系统中，若指定目录下的某些子目录，其存放于另一个文件系统上，则将该子目录予以排除在寻找范围外。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">我自己用的命令是：</span><br><span class="line">tree -I &quot;node_modules|public&quot; -L 3 &gt; tree.md</span><br></pre></td></tr></table></figure>
 <hr>
 <h4 id="3-linux下用tree命令生成文件目录"><a href="#3-linux下用tree命令生成文件目录" class="headerlink" title="3. linux下用tree命令生成文件目录"></a>3. linux下用tree命令生成文件目录</h4><p>同mac下操作</p>
 
       
     </div>
+
+    <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+
+      
+    </div>
+
     
     
     
@@ -557,8 +580,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/07/27/hexo-next-1/" rel="next" title="hexo介绍">
-                <i class="fa fa-chevron-left"></i> hexo介绍
+              <a href="/2019/07/27/hexo-next-0/" rel="next" title="hexo-next+github搭建个人博客">
+                <i class="fa fa-chevron-left"></i> hexo-next+github搭建个人博客
               </a>
             
           </div>
@@ -805,7 +828,7 @@ var ap = new APlayer({
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-windows下用tree命令生成文件目录"><span class="nav-number">1.</span> <span class="nav-text">1. windows下用tree命令生成文件目录</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-mac下用tree命令生成文件目录"><span class="nav-number">2.</span> <span class="nav-text">2. mac下用tree命令生成文件目录</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#2-1-mac下用执行下面命令查看是否已经安装了tree命令"><span class="nav-number">2.1.</span> <span class="nav-text">2.1. mac下用执行下面命令查看是否已经安装了tree命令</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-2执行下面命令"><span class="nav-number">2.2.</span> <span class="nav-text">2.2执行下面命令</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-linux下用tree命令生成文件目录"><span class="nav-number">3.</span> <span class="nav-text">3. linux下用tree命令生成文件目录</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-windows下用tree命令生成文件目录"><span class="nav-number">1.</span> <span class="nav-text">1. windows下用tree命令生成文件目录</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-mac下用tree命令生成文件目录"><span class="nav-number">2.</span> <span class="nav-text">2. mac下用tree命令生成文件目录</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#2-1-mac下用执行下面命令查看是否已经安装了tree命令"><span class="nav-number">2.1.</span> <span class="nav-text">2.1. mac下用执行下面命令查看是否已经安装了tree命令</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-2执行下面命令"><span class="nav-number">2.2.</span> <span class="nav-text">2.2执行下面命令</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-3tree命令参数详解"><span class="nav-number">2.3.</span> <span class="nav-text">2.3tree命令参数详解</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-linux下用tree命令生成文件目录"><span class="nav-number">3.</span> <span class="nav-text">3. linux下用tree命令生成文件目录</span></a></li></ol></div>
             
 
           </div>
@@ -825,7 +848,8 @@ var ap = new APlayer({
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; Sat Jul 27 2019 08:00:00 GMT+0800 (CST) &mdash; <span itemprop="copyrightYear">2019</span>
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; Sat Jul 27 2019 08:00:00 GMT+0800 (CST) &mdash; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -839,8 +863,14 @@ var ap = new APlayer({
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">2.7k</span>
+    <span title="Site words total count">3.1k</span>
   
+</div>
+
+<div class="powered-by">
+  <i class="fa fa-user-md"></i>
+  <span id="busuanzi_container_site_uv">本站访客数:<span id="busuanzi_value_site_uv"></span>
+  </span>
 </div>
 
 

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-07T06:58:16.228Z</updated>
+  <updated>2019-08-07T09:10:24.517Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2019/08/07/tree-01/"/>
     <id>http://yoursite.com/2019/08/07/tree-01/</id>
     <published>2019-08-06T16:00:00.000Z</published>
-    <updated>2019-08-07T06:58:16.228Z</updated>
+    <updated>2019-08-07T09:10:24.517Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><hr><h4 id="1-windows下用tree命令生成文件目录"><a href="#1-windows下用tree命令生成文件目录" class="headerlink" title="1. windows下用tree命令生成文件目录"></a>1. windows下用tree命令生成文件目录</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree /F &gt; D:\tree.txt</span><br></pre></td></tr></table></figure><hr><h4 id="2-mac下用tree命令生成文件目录"><a href="#2-mac下用tree命令生成文件目录" class="headerlink" title="2. mac下用tree命令生成文件目录"></a>2. mac下用tree命令生成文件目录</h4><h5 id="2-1-mac下用执行下面命令查看是否已经安装了tree命令"><a href="#2-1-mac下用执行下面命令查看是否已经安装了tree命令" class="headerlink" title="2.1. mac下用执行下面命令查看是否已经安装了tree命令"></a>2.1. mac下用执行下面命令查看是否已经安装了tree命令</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree --version</span><br></pre></td></tr></table></figure><p><img src="evernotecid://ECD3192A-98F1-49C8-A7B1-95B1EF91F783/appyinxiangcom/22428507/ENResource/p126" alt="77b0b9b24c5a83f584dce7a8c258f746.png"><br>出现如图所示结果说明已经安装<br>如果没安装则执行下面命令安装</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install tree</span><br></pre></td></tr></table></figure><h5 id="2-2执行下面命令"><a href="#2-2执行下面命令" class="headerlink" title="2.2执行下面命令"></a>2.2执行下面命令</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree -L 2 &gt;README.md</span><br></pre></td></tr></table></figure><p>-L 参数指定遍历层级<br>README.md指定输入文件</p><hr><h4 id="3-linux下用tree命令生成文件目录"><a href="#3-linux下用tree命令生成文件目录" class="headerlink" title="3. linux下用tree命令生成文件目录"></a>3. linux下用tree命令生成文件目录</h4><p>同mac下操作</p>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><hr><h4 id="1-windows下用tree命令生成文件目录"><a href="#1-windows下用tree命令生成文件目录" class="headerlink" title="1. windows下用tree命令生成文件目录"></a>1. windows下用tree命令生成文件目录</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree /F &gt; D:\tree.txt</span><br></pre></td></tr></table></figure><hr><h4 id="2-mac下用tree命令生成文件目录"><a href="#2-mac下用tree命令生成文件目录" class="headerlink" title="2. mac下用tree命令生成文件目录"></a>2. mac下用tree命令生成文件目录</h4><h5 id="2-1-mac下用执行下面命令查看是否已经安装了tree命令"><a href="#2-1-mac下用执行下面命令查看是否已经安装了tree命令" class="headerlink" title="2.1. mac下用执行下面命令查看是否已经安装了tree命令"></a>2.1. mac下用执行下面命令查看是否已经安装了tree命令</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree --version</span><br></pre></td></tr></table></figure><p><img src="evernotecid://ECD3192A-98F1-49C8-A7B1-95B1EF91F783/appyinxiangcom/22428507/ENResource/p126" alt="77b0b9b24c5a83f584dce7a8c258f746.png"><br>出现如图所示结果说明已经安装<br>如果没安装则执行下面命令安装</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install tree</span><br></pre></td></tr></table></figure><h5 id="2-2执行下面命令"><a href="#2-2执行下面命令" class="headerlink" title="2.2执行下面命令"></a>2.2执行下面命令</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree -L 2 &gt;README.md</span><br></pre></td></tr></table></figure><h5 id="2-3tree命令参数详解"><a href="#2-3tree命令参数详解" class="headerlink" title="2.3tree命令参数详解"></a>2.3tree命令参数详解</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">语法： tree [-aACdDfFgilnNpqstux][-I &lt;范本样式&gt;][-P &lt;范本样式&gt;][目录...]</span><br><span class="line"></span><br><span class="line">参数说明：</span><br><span class="line"></span><br><span class="line">-a 显示所有文件和目录。</span><br><span class="line">-A 使用ASNI绘图字符显示树状图而非以ASCII字符组合。</span><br><span class="line">-C 在文件和目录清单加上色彩，便于区分各种类型。</span><br><span class="line">-d 显示目录名称而非内容。</span><br><span class="line">-D 列出文件或目录的更改时间。</span><br><span class="line">-f 在每个文件或目录之前，显示完整的相对路径名称。</span><br><span class="line">-F 在执行文件，目录，Socket，符号连接，管道名称名称，各自加上&quot;*&quot;,&quot;/&quot;,&quot;=&quot;,&quot;@&quot;,&quot;|&quot;号。</span><br><span class="line">-g 列出文件或目录的所属群组名称，没有对应的名称时，则显示群组识别码。</span><br><span class="line">-i 不以阶梯状列出文件或目录名称。</span><br><span class="line">-I&lt;范本样式&gt; 不显示符合范本样式的文件或目录名称。</span><br><span class="line">-l 如遇到性质为符号连接的目录，直接列出该连接所指向的原始目录。</span><br><span class="line">-n 不在文件和目录清单加上色彩。</span><br><span class="line">-N 直接列出文件和目录名称，包括控制字符。</span><br><span class="line">-p 列出权限标示。</span><br><span class="line">-P&lt;范本样式&gt; 只显示符合范本样式的文件或目录名称。</span><br><span class="line">-q 用&quot;?&quot;号取代控制字符，列出文件和目录名称。</span><br><span class="line">-s 列出文件或目录大小。</span><br><span class="line">-t 用文件和目录的更改时间排序。</span><br><span class="line">-u 列出文件或目录的拥有者名称，没有对应的名称时，则显示用户识别码。</span><br><span class="line">-x 将范围局限在现行的文件系统中，若指定目录下的某些子目录，其存放于另一个文件系统上，则将该子目录予以排除在寻找范围外。</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">我自己用的命令是：</span><br><span class="line">tree -I &quot;node_modules|public&quot; -L 3 &gt; tree.md</span><br></pre></td></tr></table></figure><hr><h4 id="3-linux下用tree命令生成文件目录"><a href="#3-linux下用tree命令生成文件目录" class="headerlink" title="3. linux下用tree命令生成文件目录"></a>3. linux下用tree命令生成文件目录</h4><p>同mac下操作</p>]]></content>
     
     <summary type="html">
     
@@ -43,11 +43,11 @@
   </entry>
   
   <entry>
-    <title>hexo介绍</title>
-    <link href="http://yoursite.com/2019/07/27/hexo-next-1/"/>
-    <id>http://yoursite.com/2019/07/27/hexo-next-1/</id>
+    <title>hexo-next+github搭建个人博客</title>
+    <link href="http://yoursite.com/2019/07/27/hexo-next-0/"/>
+    <id>http://yoursite.com/2019/07/27/hexo-next-0/</id>
     <published>2019-07-26T16:00:00.000Z</published>
-    <updated>2019-08-07T03:41:45.915Z</updated>
+    <updated>2019-08-07T03:40:58.246Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     
@@ -66,11 +66,11 @@
   </entry>
   
   <entry>
-    <title>hexo-next+github搭建个人博客</title>
-    <link href="http://yoursite.com/2019/07/27/hexo-next-0/"/>
-    <id>http://yoursite.com/2019/07/27/hexo-next-0/</id>
+    <title>hexo介绍</title>
+    <link href="http://yoursite.com/2019/07/27/hexo-next-1/"/>
+    <id>http://yoursite.com/2019/07/27/hexo-next-1/</id>
     <published>2019-07-26T16:00:00.000Z</published>
-    <updated>2019-08-07T03:40:58.246Z</updated>
+    <updated>2019-08-07T03:41:45.915Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     
